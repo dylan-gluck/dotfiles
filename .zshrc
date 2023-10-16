@@ -45,6 +45,11 @@ export PATH=/Users/dylan/Library/Python/3.9/bin:$PATH
 # Plugins 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+# History substring search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 # Starship
 # eval "$(starship init zsh)"
