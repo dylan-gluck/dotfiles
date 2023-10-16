@@ -5,6 +5,14 @@ eval "$(oh-my-posh init zsh --config $HOME/.zsh/dylangluck.omp.json)"
 # See: http://weblog.bocoup.com/shell-hacking-cdpath/
 cdpath=(. $HOME $HOME/Sites $HOME/Workspace)
 
+# Will return the current branch name
+# Usage example: git pull origin $(current_branch)
+
+function current_branch() {
+  ref=$(git symbolic-ref HEAD 2> /dev/null) || return
+  echo ${ref#refs/heads/}
+}
+
 # Aliases
 alias gg="lazygit"
 alias vim="nvim"
@@ -13,7 +21,8 @@ alias lsx="exa -lahHTF -L 1 --git --no-filesize --git-ignore --no-permissions --
 alias gaa="git add --all"
 alias gco="git checkout"
 alias gcmsg="git commit -m"
-alias gpnp="git pull && git push"
+alias ggpnp="git pull origin $(current_branch) && git push origin $(current_branch)"
+alias ggpush="git push origin $(current_branch)"
 
 # Touch + Missing Directories
 function t () { mkdir -p "$(dirname "$1")" && touch "$1" ; }
