@@ -8,3 +8,4 @@
 .config/nvim
 .config/zed/keymap.json
 .config/zed/settings.json
+.config/zed/themes
