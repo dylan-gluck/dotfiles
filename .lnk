@@ -11,4 +11,5 @@
 .config/zed/themes
 .gitconfig
 .gitignore
+.profile
 .zshrc
