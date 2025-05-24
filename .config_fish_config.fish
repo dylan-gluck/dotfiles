@@ -4,6 +4,8 @@ end
 
 set -U fish_greeting
 
+fzf --fish | source
+
 lnk completion fish | source
 
 starship init fish | source
