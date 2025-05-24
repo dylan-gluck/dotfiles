@@ -6,4 +6,5 @@
 .config/fish/config.fish
 .config/ghostty
 .config/nvim
+.config/zed/keymap.json
 .config/zed/settings.json
