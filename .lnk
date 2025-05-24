@@ -1,3 +1,4 @@
 .config/aerospace
+.config/fish/conf.d/aliases.fish
 .config/fish/config.fish
 .config/ghostty
