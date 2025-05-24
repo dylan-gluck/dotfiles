@@ -1,4 +1,5 @@
 .config/aerospace
 .config/fish/conf.d/aliases.fish
+.config/fish/conf.d/brew.env.fish
 .config/fish/config.fish
 .config/ghostty
