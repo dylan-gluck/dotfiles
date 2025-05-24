@@ -1,4 +1,5 @@
 .claude/CLAUDE.md
+.claude/commands
 .config/aerospace/aerospace.toml
 .config/fish/conf.d/aliases.fish
 .config/fish/conf.d/brew.env.fish
