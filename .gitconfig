@@ -1,0 +1,5 @@
+[user]
+	name = Dylan Navajas Gluck
+	email = dylan.n.gluck@gmail.com
+[core]
+	excludeFile = ~/.gitignore
