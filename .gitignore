@@ -1,0 +1,17 @@
+# Env
+.env
+ai.env.fish
+
+# Node Modules
+node_modules/
+
+# LLM
+.aider.*
+llm.txt
+repomix-output.txt
+CLAUDE.md
+CONVENTIONS.md
+.claude/
+.ai_docs/
+ai_docs/
+.llm/
