@@ -13,4 +13,5 @@
 .gitignore
 .npmrc
 .profile
+.zprofile
 .zshrc
