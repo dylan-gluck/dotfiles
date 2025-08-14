@@ -1,3 +1,5 @@
+# Add deno completions to search path
+if [[ ":$FPATH:" != *":/Users/dylan/.zsh/completions:"* ]]; then export FPATH="/Users/dylan/.zsh/completions:$FPATH"; fi
 # Env
 . "$HOME/.local/bin/env"
 
@@ -65,3 +67,4 @@ alias ggpush="git push origin $(current_branch)"
 
 # Touch + Missing Directories
 function t () { mkdir -p "$(dirname "$1")" && touch "$1" ; }
+. "/Users/dylan/.deno/env"

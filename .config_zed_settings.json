@@ -7,6 +7,18 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "language_models": {
+    "openai": {
+      "api_url": null
+    }
+  },
+  "languages": {
+    "HTML": {
+      "formatter": "prettier",
+      "preferred_line_length": 500
+    }
+  },
+  "icon_theme": "Colored Zed Icons Theme Dark",
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
@@ -23,8 +35,8 @@
   },
   "agent": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet-latest"
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-latest"
     },
     "version": "2"
   },

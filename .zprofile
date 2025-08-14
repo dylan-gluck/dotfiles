@@ -1,2 +1,2 @@
 # Homebrew
-eval "$(/opt/homebrew/bin/brew zsh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"

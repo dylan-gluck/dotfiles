@@ -3,3 +3,5 @@
 	email = dylan.n.gluck@gmail.com
 [core]
 	excludeFile = ~/.gitignore
+[init]
+	defaultBranch = main
